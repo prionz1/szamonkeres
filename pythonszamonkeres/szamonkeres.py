@@ -21,4 +21,13 @@ szam2 = int(input('Adj meg egy számot'))
 c =(2* szam + 3*szam2)
 d =(2* szam - 3*szam2)
 print('C változó:'(c))
-print('D változó: '(d))'''
+print('D változó: '(d))
+''''''#5feladat
+for szam in range(1,21):
+    if szam % 2 == 0:
+        print('Páros 1-20',szam,end=',')
+print()
+for szam2 in range(1,21):
+    if szam2 % 2 == 1:
+        print('Páratlan 1-20-ig',szam2,end=',')
+'''
